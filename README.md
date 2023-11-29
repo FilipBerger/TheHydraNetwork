@@ -6,6 +6,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `npm install`
+
+To run the app you need to run this command in the working project directory.
+This is needed because of the .gitignore app that states that when you push the project it will ignore the node_modules.
+Therefor you need to reinstall the dependencies and this command lets you do so.
+
 ### `npm start`
 
 Runs the app in the development mode.\
