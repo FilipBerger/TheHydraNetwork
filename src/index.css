@@ -114,11 +114,6 @@ body.dark-mode * {
   border-color: #fff;
 }
 
-.App {
-  text-align: center;
-}
-
-
 .Form>div {
   font-size: 15px;
   display: flex;
@@ -138,10 +133,6 @@ body.dark-mode * {
 
 .Form p {
   margin-bottom: 10px;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 .custom-button {
