@@ -123,7 +123,6 @@ const Register = () => {
             value={inputUsername}
             onChange={handleInputUsernameChange}
           />
-          <br></br>
 
           {/* Input field for password */}
           <Input
@@ -133,11 +132,9 @@ const Register = () => {
             value={inputPassword}
             onChange={handleInputPasswordChange}
           />
-          <br></br>
 
           {/* Button to submit the form */}
           <Button type="submit" label="Register" />
-          <br></br>
           {showMessage && <p style={{ color: 'red' }}>{errorMessage}</p>}
 
           {/* Avatar selection container */}

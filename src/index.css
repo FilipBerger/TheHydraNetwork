@@ -106,13 +106,12 @@ body {
 body.dark-mode {
   background-color: #211f1f;
   color: #fff;
+}
 
-  /* Invertera färgerna för alla element i dark mode */
-  * {
-    background-color: #211f1f;
-    color: #fff;
-    border-color: #fff;
-  }
+body.dark-mode * {
+  background-color: #211f1f;
+  color: #fff;
+  border-color: #fff;
 }
 
 .App {
@@ -123,9 +122,7 @@ body.dark-mode {
 .Form>div {
   font-size: 15px;
   display: flex;
-  /* align-items: flex-start; */
 }
-
 
 .Form {
   display: flex;
@@ -218,8 +215,6 @@ body.dark-mode {
 }
 
 .avatar-container {
-  /* display: grid;
-  grid-template-columns: repeat(3, 1fr); */
   padding: 10px;
   margin: 10px;
   border: 1px solid rgb(0, 0, 0);
@@ -244,7 +239,6 @@ body.dark-mode {
 
   .navbar {
     width: 360px;
-    /* display: flex; */
   }
 }
 
